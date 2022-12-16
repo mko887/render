@@ -1,7 +1,7 @@
 export PORT=${PORT-8080}
-export PATH_vless=${PATH_vless-/api-vless}
-export PATH_trojan=${PATH_trojan-/api-trojan}
-export PATH_vmess=${PATH_vmess-/api-vmess}
+export PATH_vless=${PATH_vless-/7d928d28-667d-4929-acc0-c1b71ed340ef-vless}
+export PATH_trojan=${PATH_trojan-/7d928d28-667d-4929-acc0-c1b71ed340ef-trojan}
+export PATH_vmess=${PATH_vmess-/7d928d28-667d-4929-acc0-c1b71ed340ef-vmess}
 
 
 tar -xzvf page.tar.gz
