@@ -91,7 +91,7 @@ echo '
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "'${PATH_vmess}'"
+                    "path": "'${7d928d28-667d-4929-acc0-c1b71ed340ef_vmess}'"
                 }
             }
         }
