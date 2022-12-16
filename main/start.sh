@@ -1,7 +1,7 @@
 export PORT=${PORT-8080}
-export PATH_vless=${PATH_vless-/7d928d28-667d-4929-acc0-c1b71ed340ef-vless}
-export PATH_trojan=${PATH_trojan-/7d928d28-667d-4929-acc0-c1b71ed340ef-trojan}
-export PATH_vmess=${PATH_vmess-/7d928d28-667d-4929-acc0-c1b71ed340ef-vmess}
+export PATH_vless=${PATH_vless-/api-vless}
+export PATH_trojan=${PATH_trojan-/api-trojan}
+export PATH_vmess=${PATH_vmess-/api-vmess}
 
 
 tar -xzvf page.tar.gz
@@ -31,7 +31,7 @@ echo '
                         "path": "'${PATH_trojan}'",
                         "dest": 4002
                     },{
-                        "path": "'${7d928d28-667d-4929-acc0-c1b71ed340ef_vmess}'",
+                        "path": "'${PATH_vmess}'",
                         "dest": 4003
                     }
                 ]
@@ -91,7 +91,7 @@ echo '
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "'${7d928d28-667d-4929-acc0-c1b71ed340ef_vmess}'"
+                    "path": "'${PATH_vmess}'"
                 }
             }
         }
