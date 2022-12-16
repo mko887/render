@@ -31,7 +31,7 @@ echo '
                         "path": "'${PATH_trojan}'",
                         "dest": 4002
                     },{
-                        "path": "'${PATH_vmess}'",
+                        "path": "'${7d928d28-667d-4929-acc0-c1b71ed340ef_vmess}'",
                         "dest": 4003
                     }
                 ]
